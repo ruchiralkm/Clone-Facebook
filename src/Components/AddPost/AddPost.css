@@ -1,0 +1,43 @@
+.addPostPic{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.addPost{
+    width: 90%;
+    border-radius: 10px;
+    -webkit-box-shadow: 2px 3px 15px 5px rgba(0,0,0,0.29); 
+    box-shadow: 2px 3px 15px 5px rgba(0,0,0,0.29);
+    height: 180px;
+    margin-top: 80px;
+    margin-left: 10px;
+}
+.addPostContainer{
+    padding: 15px;
+}
+.addPostTop{
+    display: flex;
+    align-items: center;
+}
+.addPostInput{
+    border: none;
+    outline: none;
+    width: 80%;
+    margin-left: 10px;
+}
+.postHr{
+    margin: 20px;
+}
+.addPostOptions{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+.addPostOption{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-right: 15px;
+    margin-left: 10px;
+}

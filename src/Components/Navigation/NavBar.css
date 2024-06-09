@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+/*------- Navigation Bar -------*/
+.navBarBox{
+    height: 50px;
+    width: 100%;
+    background-color: #3b5998;
+    display: flex;
+    align-items: center;
+    position: fixed; /* Changed from sticky to fixed */
+    top: 0;
+    z-index: 1000; /* Added to ensure the navbar is on top of other content */
+}
+
+.navBarLeft{
+    flex: 3;
+}
+
+.navBarCenter{
+    flex: 5;
+}
+
+.navBarRight{
+    flex: 4;
+}
+
+
+/*-----Navigation Bar Left Side -----*/
+.navBarLeft{
+    display: flex;
+    justify-content: center;
+}
+
+.logo{
+    font-size: 35px;
+    margin-left: 10px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+.searchBarBox{
+    width: 100%;
+    height: 30px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    margin-top: 8px;
+}
+.searchIcon{
+    margin-left: 10px;
+    cursor: pointer;
+}
+.searchInput{
+    border: none;
+    width: 80%;
+    outline: none;
+}
+
+
+/*-----Navigation Bar Center Side -----*/
+.navBarCenter{
+    color: white;
+}
+
+
+/*-----Navigation Bar Right Side -----*/
+.navBarRight{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+.navBarRightIcons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 200px;
+}
+.navBarRightIcon{
+    margin-left: 30px;
+    cursor: pointer;
+}
+.navBarRightIcon:hover{
+    width: 30px;
+    height: 30px;
+    color: white;
+    background-color: #4263aa;
+    border-radius: 10px;
+}
+.iconTag{
+    width: 20px;
+    height: 20px;
+    justify-content: center;
+    color: white;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+}
+.profilePicImg{
+    height: 2rem;
+    width: 2rem;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 20px;
+    cursor: pointer;
+}

@@ -1,0 +1,82 @@
+.Post{
+    width: 90%;
+    -webkit-box-shadow: 2px 3px 15px 5px rgba(0,0,0,0.29); 
+    box-shadow: 2px 3px 15px 5px rgba(0,0,0,0.29);
+    margin: 30px 0;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+/*------- postTop ------- */
+.postImg{
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.postTop{
+    margin-top: 10px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}
+.userName{
+    font-size: 15px;
+    font-weight: 500;
+    margin: 0 10px;
+}
+
+.postTime{
+    font-size: 12px;
+}
+
+
+
+/*------- postCenter ------- */
+.postCenter{
+    margin: 20px 0;
+}
+.postCaption{
+    margin-left: 10px;
+}
+.postedImg{
+    width: 95%;
+    background-size: cover;
+    margin-left: 10px;
+}
+
+
+
+/*------- postBottom ------- */
+.postBottom{
+    width: 98%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.postBottomLeft{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+.reactions{
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.likeCount{
+    margin-left: 5px;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.postBottomRight{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+.commentCout{
+    margin: 5px;
+    font-size: 15px;
+    margin-bottom: 10px;
+}

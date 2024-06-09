@@ -1,0 +1,66 @@
+.rightSide{
+    flex: 3;
+    height: calc(100vh - 50px);
+    overflow-y: scroll;
+    position: sticky;
+    top: 50px;
+}
+.rightSideContainer{
+    padding: 20px 20px 0 0;
+}
+.ads{
+    margin-top: 10px;
+}
+.adsImg{
+    width: 260px;
+    height: 150px;
+}
+
+.bithdayImg{
+    height: 50px;
+    width: 50px;
+}
+
+.birthdayContainer{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+
+.onlineFried{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    -webkit-box-shadow: 2px 3px 15px 5px rgba(0,0,0,0.29); 
+    box-shadow: 2px 3px 15px 5px rgba(0,0,0,0.29);
+    border-radius: 50px 15px 15px 50px;
+    margin-bottom: 10px;
+}
+.onlineFriedImg{
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.onlineFriedImgContainer{
+    display: flex;
+    position: relative;
+}
+.onlineStatus{
+    width: 12px;
+    height: 12px;
+    background-color: green;
+    border-radius: 50%;
+    margin-top: 30px;
+    right: 0;
+    position: absolute;
+    border: 3px solid white;
+}
+.onlineFriendName{
+    font-size: 15px;
+    font-weight: 500;
+    margin-left: 10px;
+}
